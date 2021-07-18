@@ -44,7 +44,7 @@ class MemberRepositoryTest {
         Member member = Member.builder().mid(mid).build();
 
         //순서 주의
-        reviewRepository.deleteByMember(member);
+        reviewRepository.deleteMyMember(member);
         memberRepository.deleteById(mid);
     }
 
