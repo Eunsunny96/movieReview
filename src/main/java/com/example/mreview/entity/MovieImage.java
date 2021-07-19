@@ -16,6 +16,7 @@ public class MovieImage extends BaseEntity {//사용할 이미지 정보
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long inum;
 
+
     private String uuid;
 
     private String imgName;
